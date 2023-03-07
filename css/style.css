@@ -1,4 +1,25 @@
-
+.image-wrapper {
+    overflow: visible;
+    position: relative;
+  }
+  
+  .image-bg {
+    opacity: 0.6;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+  }
+  
+  .image-content {
+    position: relative;
+    /* top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    inset: 0; */
+  }
 
 
 /* template for media query */
