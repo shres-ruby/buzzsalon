@@ -1,49 +1,119 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .clearfix:after {
+       content: ".";
+       display: block;
+       clear: both;
+       visibility: hidden;
+       line-height: 0;
+       height: 0;
+  }
+  
+  .clear {
+      clear: both;
+  }
+
+  /* new trial code start */
+/* main{
+  background-image: url("/assets/buzzbackground.jpg");
+  background-size: cover;
+  height: 600px;
+}
+
+main h1 {
+  margin: 0;
+}
+
+.maintext h1{
+  font-family: 'Michroma', sans-serif;
+  color: white;
+  font-size: 70px;
+} */
+/* new trial code end */
+
+
+
+/* OLD CODE */
+
 .image-wrapper {
-    overflow: visible;
-    position: relative;
+  overflow: visible;
+  position: static;
   }
   
-  .image-bg {
-    opacity: 0.8;
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: auto;
-    filter: brightness(50%);
-  }
-  
-  .image-content {
-    position: relative;
-    margin-left: 45%;
-    margin-top: 12%;
+.image-bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+  filter: brightness(40%);
   }
 
-  .image-content h1{
-    font-family: 'Michroma', sans-serif;
+.image-wrapper img{
+  height: 650px;
+  }
+  
+.image-content {
+  position: relative;
+  margin-left: 45%;
+  margin-top: 12%;
+  }
+
+.image-content h1{
+  font-family: 'Michroma', sans-serif;
+  color: white;
+  font-size: 70px;
+  margin: auto;
+  margin-left: -6%;
+  }
+
+.image-content, h2{
+  color: darkorange;
+  font-size: 2rem;
+}
+
+.image-content span{
+  font-weight: bold;
+}
+
+.services{
+    margin-top: 10%;
+    margin-left: -10%;
+}
+
+.services span{
+    font-family: "Gill Sans", sans-serif;
     color: white;
-    font-size: 70px;
-    margin: auto;
-    margin-left: -6%;
+    background-color: orangered;
+    padding: 10px 40px;
+    font-size: 1rem;
+}
+
+.saloninfo{
+    overflow: visible;
+    position: static;
   }
 
-  .image-content, h2{
-    color: rgb(226, 196, 24);
-    font-size: 2rem;
-  }
+.saloninfo img{
+    position: static;
+    height: 500px;
+    width: 40%;
+    float: left;
+    margin-top: 200px;
+}
 
-  .services{
-      margin-top: 10%;
-      margin-left: -10%;
-  }
-
-  .services span{
-      font-family: "Gill Sans", sans-serif;
-      color: white;
-      background-color: orangered;
-      padding: 10px 40px;
-      font-size: 1rem;
-  }
+.about h2{
+    margin-top: 233px;
+    color: white;
+    float: right;
+    width: 60%;
+    background-color: grey;
+    height: 468px;
+    padding: 50px;
+    font-family: 'Hind Siliguri', sans-serif;
+}
 
 /* template for media query */
 /* @media screen and (max-width: 800px) {
