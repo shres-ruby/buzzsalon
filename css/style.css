@@ -15,29 +15,7 @@
       clear: both;
   }
 
-  /* new trial code start */
-/* main{
-  background-image: url("/assets/buzzbackground.jpg");
-  background-size: cover;
-  height: 600px;
-}
-
-main h1 {
-  margin: 0;
-}
-
-.maintext h1{
-  font-family: 'Michroma', sans-serif;
-  color: white;
-  font-size: 70px;
-} */
-/* new trial code end */
-
-
-
-/* OLD CODE */
-
-.image-wrapper {
+.image-wrapper, .saloninfo, .hours{
   overflow: visible;
   position: static;
   }
@@ -81,20 +59,24 @@ main h1 {
 .services{
     margin-top: 10%;
     margin-left: -10%;
+    position: relative;
 }
 
-.services span{
-    font-family: "Gill Sans", sans-serif;
-    color: white;
-    background-color: orangered;
-    padding: 10px 40px;
-    font-size: 1rem;
+.services .btn{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: orangered;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-left: -230px;
 }
-
-.saloninfo{
-    overflow: visible;
-    position: static;
-  }
 
 .saloninfo img{
     position: static;
@@ -104,15 +86,92 @@ main h1 {
     margin-top: 200px;
 }
 
-.about h2{
-    margin-top: 233px;
-    color: white;
+.about {
     float: right;
     width: 60%;
-    background-color: grey;
-    height: 468px;
-    padding: 50px;
-    font-family: 'Hind Siliguri', sans-serif;
+    background-color: rgb(52, 61, 61);
+    position: static;
+    height: 700px;
+  }
+
+.about h2{
+  margin-top: 300px;
+  color: white;
+  height: 468px;
+  padding: 50px;
+  margin-bottom: -350px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.about p{
+  color: white;
+  font-size: 1.3em;
+  margin-left: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.about .btn{
+  position: absolute;
+  top: 150%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: rgb(83, 95, 95);
+  color: white;
+  font-size: 16px;
+  padding: 12px 150px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-left: -230px;
+}
+
+.hours img{
+  position: static;
+  height: 500px;
+  width: 40%;
+  float: right;
+}
+
+.salonhours{
+  float: left;
+  width: 60%;
+  background-color: rgb(52, 61, 61);
+  position: static;
+  height: 500px;
+}
+
+.salonhours h2{
+  margin-top: 50px;
+  color: white;
+  height: 468px;
+  padding: 50px;
+  margin-bottom: -350px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.salonhours li{
+  color: white;
+  font-size: 1.2em;
+  margin-left: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  list-style-type: none;
+}
+
+.treatments {
+  background-color: rgb(52, 61, 61);
+}
+
+.treatments h2{
+  padding: 30px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.treatments p{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
 }
 
 /* template for media query */
