@@ -15,6 +15,20 @@
       clear: both;
   }
 
+/* scroll animation start */
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
+}
+
+/* scroll animation end */
+
 .image-wrapper, .saloninfo, .hours{
   overflow: visible;
   position: static;
@@ -171,6 +185,11 @@ li {
     position: relative;
 }
 
+.services a {
+  text-decoration: none;
+  color: white;
+}
+
 .services .btn{
   position: absolute;
   top: 50%;
@@ -222,7 +241,7 @@ li {
 
 .about .btn{
   position: absolute;
-  top: 75%;
+  top: 150%;
   left: 58%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -365,18 +384,22 @@ iframe {
 }
 
 .contactus {
-  height: 400px;
+  height: 200px;
 }
 
 .contactus h2 {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   margin-left: 600px;
-  margin-top: -30px;
+  /* margin-top: 20px; */
   position: relative;
   width: 50%;
   font-size: 40px;
-  top: 30%;
+  top: 20%;
+}
+
+.contactus > a {
+  margin-top: 50px;
 }
 
 .contactus a {
@@ -385,8 +408,8 @@ iframe {
 
 .number {
   width: 15%;
-  left: 55%;
-  top: 10%;
+  left: -30%;
+  top: 20%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   background-color: orangered;
@@ -396,24 +419,24 @@ iframe {
   border: none;
   cursor: pointer;
   border-radius: 5px;
-  margin-left: -100px;
+  /* margin-left: -100px; */
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.3em;
 }
 
 .insta {
-  left: 27%;
+  left: -20%;
   top: 50%;
 }
 
 .fb {
-  left: -25%;
-  top: 60%;
+  left: -15%;
+  top: 70%;
 }
 
 .tiktok {
-  left: 5%;
-  top: 60%;
+  left: 8%;
+  top: 70%;
 }
 
 /* template for media query */
