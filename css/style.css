@@ -61,7 +61,7 @@
   margin-left: -6%;
   }
 
-.image-content, h2{
+.image-content h2{
   color: darkorange;
   font-size: 2rem;
 }
@@ -282,6 +282,7 @@ li {
 .salonhours li{
   color: white;
   font-size: 1.2em;
+  line-height: 2;
   margin-left: 50px;
   font-family: Arial, Helvetica, sans-serif;
   list-style-type: none;
@@ -359,7 +360,7 @@ li {
   width: 668px;
   height: 10px;
   margin-top: 80px;
-  margin-left: 360px;
+  margin-left: 330px;
 }
 
 .line {
@@ -439,9 +440,106 @@ iframe {
   top: 70%;
 }
 
-/* template for media query */
-/* @media screen and (max-width: 800px) {
 
+@media screen and (max-width: 800px) {
+  .image-content h1 {
+    font-size: 46px;
+    margin-left: -34%;
+  }
 
+  .image-content h2 {
+    font-size: 1.5rem;
+    margin-left: -40px;
+  }
 
-} */
+  .services .btn {
+    left: 125%;
+    font-size: 14px;
+    padding: 8px 14px;
+    margin-top: 70px;
+  }
+
+  .saloninfo img, .hours img {
+    display: none;
+  }
+
+  .about, .salonhours {
+    width: 100%;
+  }
+
+  .about .btn {
+    left: 116%;
+    padding: 10px 125px;
+  }
+
+  .salonhours li{
+    font-size: 1.1em;
+    line-height: 2;
+  }
+
+  .treatments h2{
+    width: 400px;
+    margin-left: -20px;
+  }
+
+  .treatments p{
+    width: 355px;
+    margin-left: 10px;
+  }
+
+  .flex-container > div{
+    width: 300px;
+    line-height: 100px;
+    font-size: 1.2em;
+  }
+
+  .locations h2{
+    margin-left: 83px;
+  }
+
+  .locationnames > div{
+    font-size: 1.4em;
+  }
+
+  iframe {
+    width: 365px;
+    height: 350px;
+  }
+
+  .line{
+    display:none;
+  }
+
+  .contactus h2{
+    margin-left: 100px;
+    font-size: 27px;
+  }
+
+  .contactus a{
+    font-size: 1em;
+  }
+
+  .fa{
+    font-size: 22px;
+  }
+
+  .number{
+    left: 7%;
+    padding: 0px 67px;
+  }
+
+  .insta{
+    left: -5%;
+    top: -21%;
+  }
+
+  .fb{
+    left: 15%;
+    top: 0%;
+  }
+
+  .tiktok{
+    top: -104%;
+    left: -1%;
+  }
+}
