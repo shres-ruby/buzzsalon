@@ -33,12 +33,25 @@
     }
   }
 
+  @keyframes slideUp {
+    0% {
+      transform: translateY(100%);
+    }
+    100% {
+      transfrom: translateY(0);
+    }
+  }
+
   .image-content h1 {
     animation: 1s ease-out 0s 1 slideInLeft;
   }
 
   .image-content h2{
     animation: 1s ease-out 0s 1 slideInRight;
+  }
+
+  .about h2, .about p{
+    animation: 1s ease-out 0s 1 slideUp;
   }
 
   /* scroll animation start */
@@ -497,6 +510,10 @@ iframe {
   .about, .salonhours {
     width: 100%;
   }
+
+  /* .about {
+    margin-top: 315px;
+  } */
 
   .about .btn {
     left: 116%;
