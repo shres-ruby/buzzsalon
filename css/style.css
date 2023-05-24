@@ -482,8 +482,12 @@ iframe {
 
 @media screen and (max-width: 800px) { 
 
+  html,body{
+    overflow-x: hidden;
+}
+
   .image-wrapper img{
-    width: 53%;
+    width: 100%;
   }
 
   .image-content h1 {
@@ -577,18 +581,18 @@ iframe {
   }
 
   .insta{
-    left: -5%;
-    top: -21%;
+    left: 5%;
+    top: -2%;
   }
 
   .fb{
-    left: 15%;
-    top: 0%;
+    left: -61%;
+    top: -83%;
   }
 
   .tiktok{
-    top: -104%;
-    left: -1%;
+    top: -84%;
+    left: 21%;
   }
 
   .nav-menu{
