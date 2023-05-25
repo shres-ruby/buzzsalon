@@ -611,44 +611,48 @@ iframe {
 
 /* for desktops */
 
-@media (min-width: 1010px) and (max-width: 1280px){
+@media (min-width: 1025px) and (max-width: 1580px){
   .services .btn {
-    left: 65%;
+      margin-left: -292px;
   }
 
   .treatments h2 {
-    margin-left: 190px;
+    margin-left: 435px;
   }
 
   .treatments p {
-    margin-left: 187px;
+    margin-left: 420px;
   }
 
   .flex-container > div {
-    width: 442px;
+    width: 501px;
   }
 
   .locations h2 {
-    margin-left: 188px;
+    margin-left: 455px;
   }
 
-  .line {
+  /* .line {
     left: 21%;
-  }
+  } */
 
   .contactus h2 {
-    margin-left: 405px;
+    margin-left: 660px;
   }
 
   .number {
-    left: -32%;
+    left: -34%;
+  }
+
+  .fb {
+    left: -24%;
   }
 
   .insta {
-    left: -18%;
+    left: -25%;
   }
 
   .tiktok {
-    left: 22%;
+    left: 3%;
   }
 }
