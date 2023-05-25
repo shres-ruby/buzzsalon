@@ -576,23 +576,23 @@ iframe {
   }
 
   .number{
-    left: 7%;
+    left: -4%;
     padding: 0px 67px;
   }
 
   .insta{
-    left: -3%;
+    left: -14%;
     top: 0%;
   }
 
   .fb{
-    left: 20%;
+    left: 6%;
     top: 20%;
   }
 
   .tiktok{
-    top: -83%;
-    left: -3%;
+    top: -82%;
+    left: -12%;
   }
 
   .nav-menu{
@@ -606,5 +606,49 @@ iframe {
 
   .nav-link{
     font-size: 1rem;
+  }
+}
+
+/* for desktops */
+
+@media (min-width: 1010px) and (max-width: 1280px){
+  .services .btn {
+    left: 65%;
+  }
+
+  .treatments h2 {
+    margin-left: 190px;
+  }
+
+  .treatments p {
+    margin-left: 187px;
+  }
+
+  .flex-container > div {
+    width: 442px;
+  }
+
+  .locations h2 {
+    margin-left: 188px;
+  }
+
+  .line {
+    left: 21%;
+  }
+
+  .contactus h2 {
+    margin-left: 405px;
+  }
+
+  .number {
+    left: -32%;
+  }
+
+  .insta {
+    left: -18%;
+  }
+
+  .tiktok {
+    left: 22%;
   }
 }
